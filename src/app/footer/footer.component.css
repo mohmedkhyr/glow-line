@@ -1,0 +1,168 @@
+
+.footer {
+  background: linear-gradient(135deg, #3f3f3f, rgb(8, 8, 8));
+}
+
+.social-meadi .instagram {
+  background: linear-gradient(45deg, #833ab4, #fd1d1d, #f56040);
+  border-radius: 0px 10px 0px 0px;
+}
+.social-meadi .facebook {
+  background-color: #006aff;
+}
+.social-meadi .github {
+  background-color: #000000;
+}
+.social-meadi .snapchat {
+  background-color: #FFFC00;
+}
+.social-meadi .tiktok {
+  background-color: #000000;
+}
+.social-meadi .twitter {
+  background-color: #0e86d6;
+  border-radius: 0px 0px 10px 0px;
+}
+.social-meadi .whatsapp {
+  background-color: #2abe0c;
+}
+
+.social-meadi {
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-meadi a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  transition: all 0.2s ease-in-out;
+}
+
+
+/* .social-meadi a i {
+  width: 30px;
+  fill: #ffffff;
+} */
+
+/* after hover */
+.social-meadi a:hover {
+  width: 155%;
+  border-radius: 0 20px 20px 0;
+}
+
+
+.footer {
+  color: #fff;
+  padding: 18px 0;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #f8b400;
+  letter-spacing: 6px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin: 6px 0;
+  font-size: 17px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer ul li a:hover {
+  color: #f8b400;
+}
+
+.footer p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #f8b400;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.footer-bottonn {
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 10px;
+}
+
+.footer-bottonn p{
+  margin-top: 20px;
+
+  padding-top: 10px;
+  font-size: 10px;
+}
+
+.footer-bottom a {
+  color: #f8b400;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-bottonn a {
+  color: #f8b400;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////// */
+
+.footer .row {
+  display: flex;
+  justify-content: center; /* يجعل العناصر في المنتصف */
+  align-items: center; /* محاذاة العناصر عموديًا */
+  gap: 100px; /* يضيف مسافة بين العناصر */
+}
+
+.footer .col-lg-4 {
+  flex: 1; /* توزيع المساحة بالتساوي */
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .footer .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+
+
+.custom-title {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #ebb31b;
+  width: 40%;
+  margin: 0 auto; /* لضمان التوسيط */
+}
+
+a:hover {
+  color: #f8b400 !important; /* اللون الذهبي عند التمرير */
+}
+
+

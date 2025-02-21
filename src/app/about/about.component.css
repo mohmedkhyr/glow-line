@@ -1,0 +1,15 @@
+.card {
+  margin: 9px;
+}
+
+.all-cordes .card{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  transition:  transform 0.3s ease-out;
+}
+
+.all-cordes .card:hover {
+  color: brown;
+  transform: scale(1.1)
+}
+

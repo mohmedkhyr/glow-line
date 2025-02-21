@@ -1,0 +1,158 @@
+/* color backeground */
+.dark-part {
+  height: 1000px;
+  background: linear-gradient(135deg, #3f3f3f, rgb(8, 8, 8));
+  position: relative;
+  clip-path: polygon(0 6%, 100% 20%, 100% 80%, 0 80%);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 250px;
+}
+/* end  color backeground*/
+
+/* worle */
+.projects{
+  font-size: 50px;
+}
+/* end worle */
+
+/*
+.all-contenar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: tan;
+  padding: 0px 35px ;
+} */
+
+/* cenert */
+#customCarousel {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* boutton prev position*/
+#customCarousel .carousel-control-prev {
+  left: -70px;
+}
+/* boutton next position */
+#customCarousel .carousel-control-next {
+  right: -70px;
+}
+
+/* boutton prev */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 45px;
+  height: 45px;
+  background-color: rgba(194, 194, 194, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* boutton prev */
+.carousel-control-prev .fa-caret-left,
+.carousel-control-next .fa-caret-right {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+}
+
+/* boutton prev */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color:rgb(170, 170, 170);
+  margin: 1px;
+}
+
+
+/* transition */
+.carousel-inner img {
+  transition:  transform 0.3s ease-in;
+}
+
+.carousel-inner img:hover {
+  transform: scale(1.1)
+}
+
+
+
+/* عندما يكون عرض الشاشة أقل من 768px (تابلت وموبايل كبير) */
+@media (max-width: 768px) {
+  .carousel-item .row {
+    flex-wrap: wrap;
+  }
+
+  .carousel-item .col-4 {
+    flex: 0 0 50%; /* يعرض صورتين في الصف */
+    max-width: 50%;
+  }
+
+  .carousel-control-prev {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 30%; /* عرض مناسب للأزرار */
+    color: white;
+    font-size: 10px; /* حجم الأيقونات */
+    background: rgba(0, 0, 0, 0.5); /* لون خلفية نصف شفاف */
+    border-radius: 5px;
+  }
+
+  .carousel-control-next {
+    position: absolute;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 30%; /* عرض مناسب للأزرار */
+    color: white;
+    font-size: 50px; /* حجم الأيقونات */
+    background: rgba(0, 0, 0, 0.5); /* لون خلفية نصف شفاف */
+    border-radius: 5px;
+    margin-left: 50px;
+  }
+
+
+}
+
+/* عندما يكون عرض الشاشة أقل من 576px (موبايل صغير) */
+@media (max-width: 576px) {
+  .carousel-item .col-4 {
+    flex: 0 0 100%; /* يعرض صورة واحدة فقط في الصف */
+    max-width: 45%;
+  }
+  .carousel-control-prev {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 30%; /* عرض مناسب للأزرار */
+    color: white;
+    font-size: 10px; /* حجم الأيقونات */
+    background: rgba(0, 0, 0, 0.5); /* لون خلفية نصف شفاف */
+    border-radius: 5px;
+  }
+
+  .carousel-control-next {
+    position: absolute;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 30%; /* عرض مناسب للأزرار */
+    color: white;
+    font-size: 50px; /* حجم الأيقونات */
+    background: rgba(0, 0, 0, 0.5); /* لون خلفية نصف شفاف */
+    border-radius: 5px;
+    margin-left: 50px;
+  }
+
+}

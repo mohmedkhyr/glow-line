@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg bg-transparent fixed-top border-bottom border-3 border-light st">
+  <div class="container-fluid">
+    <!-- اللوجو -->
+    <a class="ms-lg-5">
+      <img src="../assets/imges/THE_LOGO.png" alt="logo" width="135" height="50" class="d-inline-block align-text-top">
+    </a>
+
+    <!-- زر الهامبرغر للشاشات الصغيرة -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- عناصر القائمة -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+        <li class="nav-item me-lg-5">
+          <a class="nav-link active border-start borderend border-light px-4 fw-bold" href="#"
+            style="font-size: 21px; color:rgb(22, 17, 17);">Home</a>
+        </li>
+        <li class="nav-item me-lg-5">
+          <a class="nav-link active borderstart borderend borderlight px-4 fw-bold" href="#"
+            style="font-size: 21px; color:rgb(22, 17, 17)"
+            onclick="document.getElementById('services').scrollIntoView({ behavior: 'smooth' })">Services</a>
+        </li>
+        <li class="nav-item me-lg-5">
+          <a class="nav-link active borderstart borderend borderlight px-4 fw-bold" href="#"
+            style="font-size: 21px; color:rgb(22, 17, 17)"
+            onclick="document.getElementById('pro').scrollIntoView({ behavior: 'smooth' })">Projects</a>
+        </li>
+        <li class="nav-item me-lg-5">
+          <a class="nav-link active borderstart borderend borderlight px-4 fw-bold" href="#"
+            style="font-size: 21px; color:rgb(22, 17, 17)"
+            onclick="document.getElementById('About').scrollIntoView({ behavior: 'smooth' })">About</a>
+        </li>
+        <li class="nav-item me-lg-5">
+          <button class="btn custom-btn"
+            onclick="document.getElementById('con').scrollIntoView({ behavior: 'smooth' })">Contact Us</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
